@@ -33,6 +33,7 @@ public class Main {
                 .collect(Collectors.toSet());
     }
 
+    //TODO: O(n)
     public static void main(String[] args) throws Exception {
         Path structurePath = Paths.get("res/course-217-structure.csv");
         Scanner scanner = new Scanner(structurePath);
